@@ -56,11 +56,11 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
   color: #cc1465;
   font-family: "Sigmar One", cursive;
   tex-align:left;
   text-size:1.875rem
+  font-size: 3rem;
 }
 
 footer {
