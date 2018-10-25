@@ -1,5 +1,9 @@
 html {
   font: normal 100%/1.5 Georgia,serif;
+  box-sizing: border-box;
+}
+*, *::before *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -14,7 +18,7 @@ header {
 h1 {
   margin: 0;
   text-align: center;
-  font-size: 5rem;
+  font-size: 3rem;
   color: #cc1465;
 }
 
@@ -30,10 +34,10 @@ h1 {
 }
 
 .nav a {
-  color: #fff;
+  color: #2f2d13;
   display: inline-block;
-  padding: 0.5em 0.75em;
-  background-color: #666;
+  padding: .5em .75em;
+  background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
 }
@@ -45,8 +49,9 @@ h1 {
 .nav .current {
   background-color: #cc1465;
 }
+
 h1 ,h2 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
 }
 h2 {
   font-size: 3rem;
