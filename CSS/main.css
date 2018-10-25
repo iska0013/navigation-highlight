@@ -14,6 +14,8 @@ header {
 h1 {
   margin: 0;
   text-align: center;
+  font-size: 5rem;
+  color: #cc1465;
 }
 
 .nav {
@@ -48,22 +50,23 @@ h1 ,h2 {
 }
 h2 {
   font-size: 3rem;
-}
-
-h2 {
   color: #b20953;
 }
 
 footer {
+  text-align: center;
   background-color: #ffe500;
   padding: 1em 0;
 }
 title {
   color: #cc1465;
 }
-h1 {
-  font-size: 5rem;
+
+.text{
+  padding-right: .75em;
+  padding-left: .75em
 }
-h1 {
-  color: #cc1465;
+img{
+  display: block;
+  width: 100%
 }
