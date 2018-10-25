@@ -2,7 +2,7 @@ html {
   font: normal 100%/1.5 Georgia,serif;
   box-sizing: border-box;
 }
-*, *::before *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -13,14 +13,17 @@ body {
 header {
   background-color: #ffe500;
   padding: 1em 0;
-  color: #2f2d13;
 }
 
 h1 {
+  background-color: #ffe500;
+  font-family: "Sigmar One", cursive;
+  padding: .5em .2em;
   margin: 0;
   text-align: center;
   font-size: 3rem;
   color: #cc1465;
+
 }
 
 .nav {
@@ -28,6 +31,7 @@ h1 {
   padding: 0;
   list-style-type: none;
   text-align: center;
+  background-color: #ffe500;
 }
 
 .nav li {
@@ -35,7 +39,7 @@ h1 {
 }
 
 .nav a {
-  color: #2f2d13;
+  color: #fff;
   display: inline-block;
   padding: .5em .75em;
   background-color: #b2a212;
@@ -44,19 +48,19 @@ h1 {
 }
 
 .nav a:hover {
-  background-color: #000;
-}
-
-.nav .current {
   background-color: #cc1465;
 }
 
-h1 ,h2 {
-  font-family: "Sigmar One", cursive;
+.nav .current {
+  background-color: #b2a212;
 }
+
 h2 {
   font-size: 3rem;
-  color: #b20953;
+  color: #cc1465;
+  font-family: "Sigmar One", cursive;
+  tex-align:left;
+  text-size:1.875rem
 }
 
 footer {
