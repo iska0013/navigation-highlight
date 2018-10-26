@@ -1,7 +1,8 @@
 html {
-  font: normal 100%/1.5 Georgia,serif;
+  font: normal 100%/1.5 Georgia, serif;
   box-sizing: border-box;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -12,18 +13,15 @@ body {
 
 header {
   background-color: #ffe500;
-  padding: 1em 0;
 }
 
 h1 {
   background-color: #ffe500;
   font-family: "Sigmar One", cursive;
-  padding: .5em .2em;
   margin: 0;
   text-align: center;
   font-size: 3rem;
-  color: #cc1465;
-
+  color: #b20953;
 }
 
 .nav {
@@ -36,12 +34,13 @@ h1 {
 
 .nav li {
   display: inline-block;
+  margin-bottom: .3em;
 }
 
 .nav a {
   color: #fff;
   display: inline-block;
-  padding: .5em .75em;
+  padding: .3em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
@@ -56,11 +55,10 @@ h1 {
 }
 
 h2 {
-  color: #cc1465;
+  color: #b20953;
   font-family: "Sigmar One", cursive;
-  tex-align:left;
-  text-size:1.875rem
-  font-size: 3rem;
+  text-align: left;
+  font-size: 1.875rem;
 }
 
 footer {
@@ -68,15 +66,18 @@ footer {
   background-color: #ffe500;
   padding: 1em 0;
 }
+
 title {
   color: #cc1465;
 }
 
-.text{
+.text {
+  color: #2f2d13;
   padding-right: .75em;
-  padding-left: .75em
+  padding-left: .75em;
 }
-img{
+
+img {
   display: block;
-  width: 100%
+  width: 100%;
 }
